@@ -66,7 +66,37 @@
             </p>
 
             
+        <label for="instituicao">Onde você foca seus estudos?</label><br>
+        <select id="instituicao" name="instituicao">
+            <optgroup label="ensino Técnico Regular">
+                <option value="escola-publica">Escola Pública Estadual</option>
+                <option value="etec">Escola Técnica</option>
+            </optgroup>
+            <optgroup label="Projetos e Ensino Superior">
+                <option value="ong">Fábrica de Cultura/ONG Local</option>
+                <option value="cursinho">Cursinho popular</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="acessorios">Quais acessórios completam o seu kit?</label><br>
+        <select id="acessórios" name="acessórios" multiple size="6">
+            <option value="touca">Touca estilosa</option>
+            <option value="pulseira">Pulseira de ouro</option>
+            <option value="Relógio">Relógio casual</option>
+            <option value="colar">Colar de ouro</option>
+            <option value="bolsa">bolsa estilosa</option>
+            <option value="anéis">Anéis</option>
+            <option value="brinco">Brinco antialérgico</option>
+        </select>
+    </p>
+    <p>
+        <label for="notaEstilo">De 0 á 10, o quanto a moda representa a sua identidade?</label>
+        <input type="range" id="notaEstilo" name="notaEstilo" min="0" max="10" value="5">
+        <span>/Nota selecionada:<output name="resultadoNota" for="notaEstilo">5</output>
+        </span>
 
+    </p>
         </form>
     </div>
 
